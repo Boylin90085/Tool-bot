@@ -19,6 +19,6 @@ module.exports = function(bot){
       return m.name === res.match[1]
     })
 
-    res.send(menuData.menu);
+    res.send(menuData.menu)
   })
 }
