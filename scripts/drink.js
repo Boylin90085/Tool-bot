@@ -16,6 +16,10 @@ module.exports = function(bot){
       {
         name: ['comebuy', 'Comebuy', 'ComeBuy'],
         menu: 'https://i.imgur.com/TJss7kg.jpg'
+      },
+      {
+        name: '鮮茶道',
+        menu: 'https://i.imgur.com/waLomG0.jpg'
       }
     ]
 
