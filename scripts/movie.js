@@ -2,7 +2,7 @@ const cheerio = require("cheerio")
 // const HOST = 'https://movies.yahoo.com.tw/'
 
 module.exports = function(bot) {
-  bot.hear(/有什麼電影/, (res) => {
+  bot.hear(/貓貓電影/, (res) => {
     const target_url = 'https://movies.yahoo.com.tw/movie_intheaters.html'
     // err錯誤訊息, res回應頭, body回應內容
     bot.http(target_url).get()((err, response, body) => {
